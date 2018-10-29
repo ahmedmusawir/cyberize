@@ -1,0 +1,152 @@
+/*=============================
+=            GLOBALS            =
+=============================*/
+@import "wp_default";
+@import "global";
+@import "custom";
+@import "contents/single-global";
+@import "contents/404-page/404-page";
+@import "contents/sidebar/sidebar-global";
+@import "footers/footer-general";
+
+/*=======================================
+=            HEADER & FOOTER            =
+=======================================*/
+
+@import "headers/header-cyber";
+@import "footers/footer-mfw-001";
+
+
+/*=====  End of HEADER & FOOTER  ======*/
+
+/*=======================================
+=            BLOG INDEX PAGE            =
+=======================================*/
+
+@import "contents/blog-index-page/blog-index-cyberize";
+
+/*=====  End of BLOG INDEX PAGE  ======*/
+
+/*========================================
+=            SINGLE BLOG POST            =
+========================================*/
+
+@import "contents/single-post/post-cyberize";
+
+/*=====  End of SINGLE BLOG POST  ======*/
+
+/*=========================================
+=            SEARCH INDEX PAGE            =
+=========================================*/
+
+@import "contents/search-index-page/search-index-cyberize";
+
+/*=====  End of SEARCH INDEX PAGE  ======*/
+
+/*==========================================
+=            ARCHIVE INDEX PAGE            =
+==========================================*/
+
+@import "contents/archive-index-page/archive-index-cyberize";
+
+/*=====  End of ARCHIVE INDEX PAGE  ======*/
+
+
+
+/**
+ *
+ * Following is for React Routing App - To be Removed
+ *
+ */
+
+
+.movie-category-list-container {
+  .container-body {
+    .badge {
+      font-size: 1.2rem;
+      text-shadow: 3px 3px 8px black;
+    }
+    .list-box {
+      .list-item {
+        margin-bottom: 2rem;
+        list-style: none;
+        box-shadow: 3px 3px 8px black;
+
+        background-color: darken($color: $cg-primary, $amount: 20%);
+        .poster-holder {
+          .poster {
+            padding-right: 5rem;
+            @media (max-width: 992px) {
+              float: none !important;
+              padding-right: 0;
+              margin-bottom: -3rem;
+              margin-top: 3rem;
+              box-shadow: 5px 5px 16px black;
+            }
+          }
+        }
+        .text-content {
+          // border: 3px solid red;
+          .content {
+            padding: 5rem;
+            @media (max-width: 450px) {
+              padding: 2.5rem;
+            }
+            .title {
+              font-size: 1.5rem;
+              text-shadow: 3px 3px 8px black;
+              @media (max-width: 450px) {
+                padding-top: 1.5rem;
+              }
+            }
+            .plot {
+            	color: white !important;
+            }
+            .genre {
+              font-weight: 300;
+            }
+            .btn-holder {
+              .btn {
+                box-shadow: 3px 3px 8px black;
+                padding: 0.5rem 2rem;
+                border-radius: 50px;
+              }
+              .btn-warning {
+                padding: 0.8rem 1rem;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
