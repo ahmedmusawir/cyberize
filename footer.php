@@ -13,12 +13,12 @@
 
 	</div><!-- #content -->
 
-	<footer id="footer-mfw-001" class="site-footer">
+	<footer id="footer-cyberize" class="site-footer">
 
 
 		<div class="container widgets_wrapper">
 		   <div class="row">
-		      <div class="col-sm-4">
+		      <div class="col-sm-12 col-md-6 col-lg-3">
 
 				<?php
 
@@ -34,7 +34,7 @@
 
 		        
 		      </div>
-		      <div class="col-sm-4">
+		      <div class="col-sm-12 col-md-6 col-lg-3">
 
 				<?php
 
@@ -44,13 +44,13 @@
 					}
 				?>
 
-					<aside id="footer-widget-1" class="widget-area">
+					<aside id="footer-widget-2" class="widget-area">
 						<?php dynamic_sidebar( 'footer-sidebar-2' ); ?>
 					</aside><!-- #secondary -->
 
 		         
 		      </div>
-		      <div class="col-sm-4">
+		      <div class="col-sm-12 col-md-6 col-lg-3">
 
 				<?php
 
@@ -60,8 +60,23 @@
 					}
 				?>
 
-					<aside id="footer-widget-1" class="widget-area">
+					<aside id="footer-widget-3" class="widget-area">
 						<?php dynamic_sidebar( 'footer-sidebar-3' ); ?>
+					</aside><!-- #secondary -->
+
+		      </div>
+		      <div class="col-sm-12 col-md-6 col-lg-3">
+
+				<?php
+
+					if ( ! is_active_sidebar( 'footer-sidebar-4' ) ) {
+						
+						echo "Please Insert A Widget";
+					}
+				?>
+
+					<aside id="footer-widget-4" class="widget-area">
+						<?php dynamic_sidebar( 'footer-sidebar-4' ); ?>
 					</aside><!-- #secondary -->
 
 		      </div>

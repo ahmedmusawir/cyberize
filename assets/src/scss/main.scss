@@ -14,7 +14,7 @@
 =======================================*/
 
 @import "headers/header-cyber";
-@import "footers/footer-mfw-001";
+@import "footers/footer-cyberize";
 
 
 /*=====  End of HEADER & FOOTER  ======*/
@@ -51,78 +51,15 @@
 
 /*=====  End of ARCHIVE INDEX PAGE  ======*/
 
+/*=======================================
+=            PORTFOLIO INDEX PAGE            =
+=======================================*/
 
+@import "contents/portfolio/cg-portfolio-main-page";
+@import "contents/portfolio/cg-taxonomy-portfolio-item";
+@import "contents/portfolio/portfolio-masonry";
 
-/**
- *
- * Following is for React Routing App - To be Removed
- *
- */
-
-
-.movie-category-list-container {
-  .container-body {
-    .badge {
-      font-size: 1.2rem;
-      text-shadow: 3px 3px 8px black;
-    }
-    .list-box {
-      .list-item {
-        margin-bottom: 2rem;
-        list-style: none;
-        box-shadow: 3px 3px 8px black;
-
-        background-color: darken($color: $cg-primary, $amount: 20%);
-        .poster-holder {
-          .poster {
-            padding-right: 5rem;
-            @media (max-width: 992px) {
-              float: none !important;
-              padding-right: 0;
-              margin-bottom: -3rem;
-              margin-top: 3rem;
-              box-shadow: 5px 5px 16px black;
-            }
-          }
-        }
-        .text-content {
-          // border: 3px solid red;
-          .content {
-            padding: 5rem;
-            @media (max-width: 450px) {
-              padding: 2.5rem;
-            }
-            .title {
-              font-size: 1.5rem;
-              text-shadow: 3px 3px 8px black;
-              @media (max-width: 450px) {
-                padding-top: 1.5rem;
-              }
-            }
-            .plot {
-            	color: white !important;
-            }
-            .genre {
-              font-weight: 300;
-            }
-            .btn-holder {
-              .btn {
-                box-shadow: 3px 3px 8px black;
-                padding: 0.5rem 2rem;
-                border-radius: 50px;
-              }
-              .btn-warning {
-                padding: 0.8rem 1rem;
-              }
-            }
-          }
-        }
-      }
-    }
-  }
-}
-
-
+/*=====  End of PORTFOLIO INDEX PAGE  ======*/
 
 
 

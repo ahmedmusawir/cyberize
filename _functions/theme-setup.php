@@ -41,10 +41,19 @@ if ( ! function_exists( 'cyberize_setup' ) ) :
 		 * @link https://developer.wordpress.org/themes/functionality/featured-images-post-thumbnails/
 		 */
 		add_theme_support( 'post-thumbnails' );
+		add_image_size( 'blog-size', 400, 200, true );
+		add_image_size( 'featured-size', 500, 300, true );
+		add_image_size( 'featured-post-size', 600, 250, true );
+
 
 		// This theme uses wp_nav_menu() in one location.
 		register_nav_menus( array(
 			'menu-1' => esc_html__( 'Primary', 'cyberize' ),
+		) );
+
+		// Portfolio Category Menu
+		register_nav_menus( array(
+			'portfolio' => esc_html__( 'Portfolio', 'cyberize' ),
 		) );
 
 		/*

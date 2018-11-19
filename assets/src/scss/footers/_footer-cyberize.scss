@@ -1,10 +1,10 @@
 /**
  *
- * Footer 001
+ * Footer Cyberize
  *
  */
 
-#footer-mfw-001 {
+#footer-cyberize {
 
 	width: 100vw;
 	background-color: darken($cg-primary, 15%);
@@ -38,6 +38,9 @@
 			}
 			h5 {
 				font-size: $font-size-base * 1.25;
+			}
+			ul {
+				padding-inline-start: 0px;
 			}
 		}
 	}
