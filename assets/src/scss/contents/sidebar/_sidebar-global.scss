@@ -5,7 +5,7 @@
  */
 
 #sidebar {
-	padding-top: 100px;
+	// padding-top: 100px;
 	// padding-bottom: 4rem;
 	// border: 4px solid red;
 	.search-form {
@@ -41,6 +41,7 @@
 
 		ul {
 			list-style-type: none;
+			padding-inline-start: 0px;
 
 			li {
 				&::before {
@@ -49,6 +50,13 @@
  					color: $cg-secondary;
  					padding-right: .5rem;
  					padding-left: .5rem;					
+				}
+				&:hover {
+					// border: 1px solid $cg-secondary;
+					text-decoration: underline;
+					a {
+						color: darken($cg-secondary, 10%);
+					}
 				}
 			}
 		}
