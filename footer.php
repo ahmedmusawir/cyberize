@@ -100,10 +100,10 @@
 					<div class="text-center mx-auto">
 
 						<a href="<?php echo esc_url( __( 'https://cyberizegroup.com/', 'moose-framework-2' ) ); ?>"><?php
-							printf( esc_html__( 'Proudly powered by %s', 'moose-framework-2' ), 'MooseFramework 2.0' );
+							printf( esc_html__( 'Proudly powered by %s', 'moose-framework-2' ), 'CyberizeFramework 1.2' );
 						?></a>
 						<span class="sep"> | </span>
-						All Rights Reserved <a href="https://cyberizegroup.com" target="_blank">Cyberizegroup.com</a> &copy;2018
+						<?php the_field('theme_footer_text', 'option') ?>
 
 					</div>	
 						

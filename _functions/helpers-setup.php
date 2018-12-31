@@ -160,5 +160,32 @@ if( function_exists('acf_add_options_page') ) {
     // 'capability'   => 'edit_posts',
     // 'redirect'   => false
   ));
+  $option_page = acf_add_options_page(array(
+    'icon_url'  => 'dashicons-index-card',
+    'menu_title'  => 'Theme Settings',
+    'menu_slug'   => 'cyberize-theme-settings',
+    // 'capability'   => 'edit_posts',
+    // 'redirect'   => false
+  ));
  
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

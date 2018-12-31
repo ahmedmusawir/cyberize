@@ -8,13 +8,13 @@
  */
 
 ?>
-<article id="post-<?php the_ID(); ?>" <?php post_class('article-content-block col-sm-6 col-md-4 col-lg-3 mx-auto'); ?>>
+<article id="post-<?php the_ID(); ?>" <?php post_class('article-content-block col-sm-6 col-md-4 col-lg-3 mx-auto  animated zoomIn'); ?>>
 
     <article class="content-block clearfix">
        
         <a class="article-image" href="#" data-featherlight="#portfolio-single-<?php echo the_ID(); ?>">
 
-            <?php the_post_thumbnail('medium', array('class' => 'img-responsive animated zoomIn')); ?>
+            <?php the_post_thumbnail('medium', array('class' => 'img-responsive  animated zoomIn')); ?>
 
         </a>
 
@@ -36,7 +36,7 @@
 
                     <article class="left-content">
 
-                        <header id="header" class="animated zoomIn">
+                        <header id="header" class="">
 
                             <img class="img-responsive float-right" src="/wp-content/uploads/2018/01/just-moose-head-100x80.png" alt="">
 
@@ -91,7 +91,7 @@
 
                         <div class="content">
                             
-                            <h5 class="title animated bounceInRight">
+                            <h5 class="title">
                                 PROJECT BY:
                             </h5>
                             <p>
@@ -99,7 +99,7 @@
                             </p>
                             <hr>
 
-                            <h5 class="title animated bounceInRight">
+                            <h5 class="title">
                                 PROJECT GENRE:
                             </h5>
                             <p>
@@ -107,7 +107,7 @@
                             </p>
                             <hr>
 
-                            <h5 class="title animated bounceInRight">
+                            <h5 class="title">
                                 <b>PROJECT DETAILS:</b>
                             </h5>
                             

@@ -9,7 +9,7 @@
 		width: 100vw;
 		height: 200px;
 		background-color: black;
-		background-image: url('/wp-content/uploads/2018/10/cyber-city-1920X200.jpg');
+		background-image: url('<?php the_field('general_page_header_image', 'option') ?>');
 		background-size: cover;
 		background-position: top center;
 	}

@@ -81,8 +81,13 @@ a {
  * WP Admin Bar Lowering
  *
  */
-// .navbar .fixed-top { top: 0px; }
-// body.admin-bar { top: 28px !important; }
+.logged-in {
+	.navbar.fixed-top { 
+		top: 32px; 
+		// border: 1px solid red;
+	}
+	body.admin-bar { top: 0px !important; }
+}
 
 /*=====  End of GLOBAL CONTENT  ======*/
 

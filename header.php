@@ -28,7 +28,8 @@
 
 		<!-- Moose_Framework_2 NAVIGATION GOES HERE -->
 		<nav class="navbar navbar-expand-xl fixed-top">
-			<a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>"><img class="logo img-fluid" src="/wp-content/uploads/2018/11/cyberize-group-logo-clear-373x60.png"></a>
+			<a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>"><img class="logo img-fluid" src="<?php the_field('site_logo', 'option') ?>"></a>
+			<!-- <a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>"><img class="logo img-fluid" src="/wp-content/uploads/2018/11/cyberize-group-logo-clear-373x60.png"></a> -->
 			<button class="navbar-toggler float-right" type="button" data-toggle="collapse" data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="<?php esc_html_e( 'Toggle Navigation', 'theme-textdomain' ); ?>">
 				<span class="navbar-toggler-icon"></span>
 			</button>

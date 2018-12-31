@@ -9,15 +9,13 @@
 //   	$( this ).css('border', '1rem solid red');
 
 //   });
-	
+
 // });
 
+// class App {
+// 	constructor() {
+// 		console.info( 'ES6 App Initialized!' );
+// 	}
+// }
 
-
-class App {
-	constructor() {
-		console.info( 'ES6 App Initialized!' );
-	}
-}
-
-const app = new App();
+// const app = new App();

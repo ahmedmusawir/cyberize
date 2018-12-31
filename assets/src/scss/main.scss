@@ -1,22 +1,21 @@
 /*=============================
 =            GLOBALS            =
 =============================*/
-@import "wp_default";
-@import "global";
-@import "custom";
-@import "contents/single-global";
-@import "contents/404-page/404-page";
-@import "contents/sidebar/sidebar-global";
-@import "footers/footer-general";
+@import 'wp_default';
+@import 'global';
+@import 'custom';
+@import 'contents/single-global';
+@import 'contents/404-page/404-page';
+@import 'contents/sidebar/sidebar-global';
+@import 'footers/footer-general';
 
 /*=======================================
 =    HEADER & FOOTER & SIDEBAR            =
 =======================================*/
 
-@import "headers/header-cyber";
-@import "footers/footer-cyberize";
+@import 'headers/header-cyber';
+@import 'footers/footer-cyberize';
 // @import "contents/sidebar/sidebar-global";
-
 
 /*=====  End of HEADER & FOOTER  ======*/
 
@@ -24,7 +23,7 @@
 =            BLOG INDEX PAGE            =
 =======================================*/
 
-@import "contents/blog-index-page/blog-index-cyberize";
+@import 'contents/blog-index-page/blog-index-cyberize';
 
 /*=====  End of BLOG INDEX PAGE  ======*/
 
@@ -32,7 +31,7 @@
 =            SINGLE BLOG POST            =
 ========================================*/
 
-@import "contents/single-post/post-cyberize";
+@import 'contents/single-post/post-cyberize';
 
 /*=====  End of SINGLE BLOG POST  ======*/
 
@@ -40,7 +39,7 @@
 =            SEARCH INDEX PAGE            =
 =========================================*/
 
-@import "contents/search-index-page/search-index-cyberize";
+@import 'contents/search-index-page/search-index-cyberize';
 
 /*=====  End of SEARCH INDEX PAGE  ======*/
 
@@ -48,7 +47,7 @@
 =            ARCHIVE INDEX PAGE            =
 ==========================================*/
 
-@import "contents/archive-index-page/archive-index-cyberize";
+@import 'contents/archive-index-page/archive-index-cyberize';
 
 /*=====  End of ARCHIVE INDEX PAGE  ======*/
 
@@ -56,35 +55,42 @@
 =            PORTFOLIO INDEX PAGE            =
 =======================================*/
 
-@import "contents/portfolio/cg-portfolio-main-page";
-@import "contents/portfolio/cg-taxonomy-portfolio-item";
-@import "contents/portfolio/portfolio-masonry";
+@import 'contents/portfolio/cg-portfolio-main-page';
+@import 'contents/portfolio/cg-taxonomy-portfolio-item';
+@import 'contents/portfolio/portfolio-masonry';
 
 /*=====  End of PORTFOLIO INDEX PAGE  ======*/
 
+/*=======================================
+=            D3 DONUT APP PAGE            =
+=======================================*/
+.d3-donut-main {
+  // border: 2px solid red;
+  background-color: royalblue;
+  padding: 2rem;
 
+  header {
+    // border: 2px solid blue;
+    background-color: darken($color: royalblue, $amount: 10%);
+    padding: 5rem;
 
+    h1,
+    h4 {
+      color: white;
+    }
+  }
 
+  .main-content {
+    border: 5px solid darken($color: royalblue, $amount: 10%);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    .col-left {
+      // border: 2px solid dodgerblue;
+      padding: 3rem;
+    }
+    .col-right {
+      // border: 2px solid hotpink;
+      padding: 3rem;
+    }
+  }
+}
+/*=====  End of D3 DONUT APP PAGE  ======*/

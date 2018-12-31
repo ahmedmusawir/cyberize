@@ -1,6 +1,7 @@
 <?php
 /**
- * The template for displaying all pages
+ * Template Name: Blank Page for Thrive
+ *
  *
  * This is the template that displays all pages by default.
  * Please note that this is the WordPress construct of pages
@@ -14,24 +15,9 @@
 
 get_header(); ?>
 
-	<style type="text/css">
-		#general-page-header {
-			width: 100vw;
-			height: 200px;
-			background-color: black;
-			background-image: url('<?php the_field('general_page_header_image', 'option') ?>');
-			background-size: cover;
-			background-position: top center;
-		}
-	</style>
-
-	<section id="general-page-header">
-		<!-- <img class="img-fluid" src="/wp-content/uploads/2018/02/general-page-header-2400x300.jpg"> -->
-	</section>
-
-	<div id="primary" class="content-area container">
-		<div class="row">
-			<main id="main" class="site-main col-sm-12 col-md-12 col-lg-12 col-xl-12">
+	<div id="primary" class="content-area">
+		<div class="">
+			<main id="main" class="site-main">
 
 				<?php
 				while ( have_posts() ) : the_post();

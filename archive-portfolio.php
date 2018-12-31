@@ -16,7 +16,7 @@ get_header(); ?>
 		width: 100vw;
 		height: 200px;
 		background-color: black;
-		background-image: url('/wp-content/uploads/2018/10/cyber-city-1920X200.jpg');
+		background-image: url('<?php the_field('general_page_header_image', 'option') ?>');
 		background-size: cover;
 		background-position: top center;
 	}
@@ -99,7 +99,7 @@ get_header(); ?>
 
 											<article class="left-content">
 
-												<header id="header" class="animated zoomIn">
+												<header id="header" class="">
 
 													<img class="img-responsive float-right" src="/wp-content/uploads/2018/01/just-moose-head-100x80.png" alt="">
 
@@ -154,7 +154,7 @@ get_header(); ?>
 
 												<div class="content">
 													
-													<h5 class="title animated bounceInRight">
+													<h5 class="title">
 														PROJECT BY:
 													</h5>
 													<p>
@@ -162,7 +162,7 @@ get_header(); ?>
 													</p>
 													<hr>
 
-													<h5 class="title animated bounceInRight">
+													<h5 class="title">
 														PROJECT GENRE:
 													</h5>
 													<p>
@@ -170,7 +170,7 @@ get_header(); ?>
 													</p>
 													<hr>
 
-													<h5 class="title animated bounceInRight">
+													<h5 class="title">
 														<b>PROJECT DETAILS:</b>
 													</h5>
 													
