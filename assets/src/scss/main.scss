@@ -68,11 +68,18 @@
   // border: 2px solid red;
   background-color: royalblue;
   padding: 2rem;
+  @media (max-width: 700px) {
+    padding: 0;
+  }
 
   header {
     // border: 2px solid blue;
     background-color: darken($color: royalblue, $amount: 10%);
     padding: 5rem;
+
+    @media (max-width: 700px) {
+      padding: 0;
+    }
 
     h1,
     h4 {
@@ -82,15 +89,119 @@
 
   .main-content {
     border: 5px solid darken($color: royalblue, $amount: 10%);
+    padding: 3rem;
+
+    @media (max-width: 800px) {
+      padding: 0;
+    }
 
     .col-left {
       // border: 2px solid dodgerblue;
-      padding: 3rem;
+      padding: 1.5rem;
+      background-color: white;
+      box-shadow: 0px 0px 30px navy inset;
+      // box-shadow: 3px 3px 6px grey inset;
+
+      form {
+        input {
+          border-radius: 0;
+          padding-top: 2rem;
+          padding-bottom: 2rem;
+          border: 0;
+          border-bottom: 1px solid red;
+        }
+        button {
+          border-radius: 0;
+          padding: 1rem;
+        }
+      }
     }
     .col-right {
-      // border: 2px solid hotpink;
       padding: 3rem;
+
+      @media (max-width: 800px) {
+        padding: 0;
+      }
     }
   }
 }
+.tip {
+  border: 2px solid red;
+  padding: 10px;
+  background: #333;
+  color: #fff;
+  .delete {
+    color: hotpink;
+    font-size: 0.8rem;
+  }
+}
+
 /*=====  End of D3 DONUT APP PAGE  ======*/
+
+/*=======================================
+=            D3 LINE CHART APP PAGE            =
+=======================================*/
+.d3-linechart-main {
+  // border: 2px solid red;
+  background-color: gray;
+  padding: 2rem;
+
+  header {
+    // border: 2px solid blue;
+    background-color: darken($color: gray, $amount: 20%);
+    padding: 5rem;
+
+    @media (max-width: 800px) {
+      padding: 0;
+    }
+
+    h1,
+    h4 {
+      color: white;
+    }
+  }
+
+  .main-content {
+    border: 5px solid darken($color: gray, $amount: 20%);
+    padding: 3rem;
+
+    @media (max-width: 800px) {
+      padding: 0;
+    }
+
+    .col-left {
+      // border: 2px solid dodgerblue;
+      padding: 1.5rem;
+      background-color: darken($color: gray, $amount: 30%);
+      box-shadow: 0px 0px 30px gray inset;
+
+      h5 {
+        padding-bottom: 1.5rem;
+      }
+      button {
+        border-radius: 0;
+        padding: 1rem;
+        margin-bottom: 1rem;
+      }
+    }
+    .col-right {
+      padding: 3rem;
+
+      @media (max-width: 800px) {
+        padding: 0;
+      }
+    }
+  }
+}
+.tip {
+  border: 2px solid red;
+  padding: 10px;
+  background: #333;
+  color: #fff;
+  .delete {
+    color: hotpink;
+    font-size: 0.8rem;
+  }
+}
+
+/*=====  End of D3 LINECHART APP PAGE  ======*/

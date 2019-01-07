@@ -29,7 +29,10 @@ var jsAdminFILES = [
   'script.js',
   'd3-donut-graph.js',
   'd3-donut-index.js',
-  'firebaseConfig.js'
+  'd3-linechart-graph.js',
+  'd3-linechart-index.js',
+  'firebaseConfig.js',
+  'react-script-1.js'
 ];
 
 var jsWatch = 'assets/src/js/*.js';

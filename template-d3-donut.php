@@ -29,8 +29,8 @@ get_header();
         <section class="main-content">
           <div class="container">
             <div class="row">
-              <div class="col-left col-md-6 col-lg-6">
-                <h2>Left Col</h2>
+              <div class="col-left col-md-12 col-lg-6">
+                <h2>Add Item</h2>
                 <form>
                   <div class="form-group">
                     <input type="text" class="form-control" id="name" aria-describedby="Expense Name" placeholder="Expense Name. Ex: Clothing..." required>
@@ -41,19 +41,15 @@ get_header();
                   </div>
 
                   <div class="btn-holder text-center">
-                    <button type="submit" class="btn btn-danger btn-lg">Submit</button>
+                    <button type="submit" class="btn btn-danger btn-lg">Add Expense</button>
                     <p class="text-center text-warning" id="error"></p>
                   </div>
                 </form>
               </div>
-              <div class="col-right col-md-6 col-lg-6">
-                <h2>Right Col</h2>
+              <div class="col-right col-md-12 col-lg-6">
+                <!-- <h2>Right Col</h2> -->
                 <div class="canvas">
-                  <svg width="450" height="450">
-                    <g transform="translate(155, 155)">
-                      <path d="M9.184850993605149e-15,-150A150,150,0,1,1,9.184850993605149e-15,150L4.592425496802574e-15,75A75,75,0,1,0,4.592425496802574e-15,-75Z"></path>
-                    </g>
-                  </svg>
+
                 </div>
               </div>
             </div>

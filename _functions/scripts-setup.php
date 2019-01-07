@@ -28,8 +28,10 @@ function cyberize_scripts() {
     
     // D3 DONUT GRAPH APP FILES
     wp_enqueue_script( 'd3-main-script', 'https://cdnjs.cloudflare.com/ajax/libs/d3/5.7.0/d3.min.js', array(), '20151215', true );
-    wp_enqueue_script( 'd3-donut-index-script', get_template_directory_uri() . '/assets/dist/js/d3-donut-index.min.js', array(), '20151215', true );
-    wp_enqueue_script( 'd3-donut-graph-script', get_template_directory_uri() . '/assets/dist/js/d3-donut-graph.min.js', array(), '20151215', true );
+    wp_enqueue_script( 'd3-legend-script', 'https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.25.6/d3-legend.min.js', array(), '20151215', true );
+    wp_enqueue_script( 'd3-tip-script', 'https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.9.1/d3-tip.min.js', array(), '20151215', true );
+    
+    
     
     //CYBERIZE FRAMEWORK 1.0 JAVASCRIPTS UNIFIED AND MINIFIED
     wp_enqueue_script( 'cyberize-framework-1-feather-light-js', get_template_directory_uri() . '/assets/dist/js/featherlight.min.js', array(jquery), '20181105', true );
